@@ -11,10 +11,6 @@ namespace AppBundle\Entity;
 
 class Product
 {
-    /**
-     * Creates les properties  d'entity Product.
-     *
-     */
 
     const FOOD_PRODUCT = 'food';
 
