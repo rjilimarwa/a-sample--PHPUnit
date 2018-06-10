@@ -1,0 +1,26 @@
+{
+    "name": "pc-tarek/demo",
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+
+    },
+    "authors": [
+        {
+            "name": "RjiliMarwa",
+            "email": "rjilimarwadjerba@gmail.com"
+        }
+    ],
+    "autoload":{
+       "psr-4":{
+           "AppBundle\\":"src/AppBundle",
+           "Tests\\":"_tests_"
+       }
+    },
+    "require": {
+        "symfony/http-foundation": "^3.4",
+        "jms/serializer-bundle": "^2.4",
+        "guzzlehttp/guzzle": "^6.3",
+        "hslavich/simplesamlphp-bundle": "^1.1",
+        "psr/http-message": "^1.0"
+    }
+}
