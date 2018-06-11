@@ -2,9 +2,14 @@
 
 /**
  * new Math Class
+ *
+ *
  */
 class Math
 {
-public static  function double($nombre)
-{return $nombre*2;}
+
+     public static  function double($nombre)
+         {
+        return $nombre*2;
+         }
 }

@@ -12,13 +12,13 @@ use AppBundle\Utilities\Calculator;
 
 class CalculatorTest extends TestCase
 {
-public function testAdd()
-{
-    $calculator=new Calculator();
-    $result=$calculator->add(10,3);
-    $this->assertEquals(13,$result);
+    public function testAdd()
+    {
+         $calculator=new Calculator();
+         $result=$calculator->add(10,3);
+         $this->assertEquals(13,$result);
 
-}
+    }
     public function testsubstract()
     {
         $calculator=new Calculator();

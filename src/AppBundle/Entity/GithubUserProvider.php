@@ -17,6 +17,7 @@ use Symfony\Component\Security\Core\User\UserProviderInterface;
 
 class GithubUserProvider implements UserProviderInterface
 {
+
     private $client;
     private $serializer;
 
@@ -44,7 +45,8 @@ class GithubUserProvider implements UserProviderInterface
 
         $userData = $this->serializer->deserialize($result, 'array', 'json');
 
-        if (!$userData) {
+        if (!$userData)
+        {
             throw new \LogicException('Did not managed to get your user info from Github.');
         }
 
@@ -62,7 +64,8 @@ class GithubUserProvider implements UserProviderInterface
     /**
      * @param UserInterface $user
      */
-    public function refreshUser(UserInterface $user){
+    public function refreshUser(UserInterface $user)
+    {
 
     }
 

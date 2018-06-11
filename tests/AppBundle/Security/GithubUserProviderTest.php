@@ -13,10 +13,10 @@ use PHPUnit\Framework\TestCase;
 
 class GithubUserProviderTest extends TestCase
 {
-    private $client;
-    private $serializer;
-    private $streamedResponse;
-    private $response;
+            private $client;
+            private $serializer;
+            private $streamedResponse;
+            private $response;
 
     /**
      * The setUp method is a method from the PHPUnit_Framework_TestCase class
@@ -77,7 +77,7 @@ class GithubUserProviderTest extends TestCase
             ->expects($this->once())
             ->method('get')
             ->willReturn($this->response)
-        ;
+         ;
 
         $this->response
             ->expects($this->once())

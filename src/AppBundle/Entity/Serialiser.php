@@ -41,5 +41,7 @@ class Serialiser
         TypeParser $typeParser = null,
         ExpressionEvaluatorInterface $expressionEvaluator = null
     )
-    {  }
+    {
+
+    }
 }
